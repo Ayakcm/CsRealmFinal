@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+:root {
+    --main-color: #A4529C;
+    --beige: #e7d9c4f5;
+    --orange: #E07724;
+    --white: #fff;
+    --black: #010100;
+    --light-color: #888;
+    --light-eg: #eee;
+    --green: rgb(60, 169, 172);
+
+    width: 100%;
+
+
+}
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+html {
+    font-size: 62.5%;
+
+    scroll-behavior: var(--black);
+}
+
+html,
+body {
+    height: 100%;
+
+
+
+}
+
+
+body {
+    background-color: #F0E3D3;
+
+}
+
+
+.header {
+    background-color: #F0E3D3;
+    border-bottom: var(--border);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+.header .flex {
+    padding: 1.5rem 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header .flex .Logo {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #000000;
+
+}
+
+.header .flex .search-form {
+    width: 50rem;
+    border-radius: .7rem;
+    display: flex;
+
+    padding: 1rem 2rem;
+    background-color: #F2D0AA;
+
+}
+
+.header .flex .search-form input {
+    width: 100%;
+    color: #F2D0AA;
+    background-color: #F2D0AA;
+    font-size: 2rem;
+    color: #010100;
+}
+
+
+.header .flex .search-form button {
+    background-color: #F2D0AA;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header .flex .search-form button:hover {
+    color: #A4529C;
+}
+
+.header .flex .icons div {
+    font-size: 2rem;
+    color: #000000;
+    border-radius: .5rem;
+    height: 4.5rem;
+    cursor: pointer;
+    width: 3.5rem;
+    line-height: 4.4rem;
+}
+
+.header .flex .icons div:hover {
+    color: #83567e;
+}
+
+.header .flex .Sign button {
+    font-size: 1.5rem;
+    background-color: #99C1B9;
+    border-radius: 5%;
+    padding: 10px 12px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header .flex .Sign button:hover {
+    background-color: #D88C99;
+}
+
+.header .flex .Login button {
+    font-size: 1.5rem;
+    background-color: #99C1B9;
+    border-radius: 5%;
+    padding: 10px 12px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header .flex .Login button:hover {
+    background-color: #D88C99;
+}
+
+/* ---------------  */
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.home .content {
+    flex: 2 2 40rem;
+}
+
+.home .image {
+    flex: 1 1 40rem;
+}
+
+.home .image img {
+    width: 50%;
+    float: right;
+
+}
+
+.home .content h4 {
+
+    color: black;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+
+}
+
+.home .content p {
+    font-size: 1.4rem;
+    font-family: 'Open sans', sans-serif;
+    margin-left: 70px;
+
+
+}
+
+
+#cont {
+    height: 100%;
+    width: 100%;
+}
+
+.Subject {
+    background-color: #99C1B9;
+
+    height: 300px;
+
+
+}
+
+.Subject h3 {
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+
+
+.Subject .gt button {
+    font-size: 2rem;
+    color: black;
+    border-radius: 5%;
+    padding: 10px 12px;
+    margin-left: 1.5%;
+    margin-top: 2%;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+
+.Subject .gt button:hover {
+    background-color: #656161;
+}
+
+.Subject .line {
+    border-left: 6px solid white;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4%;
+    top: 500px;
+
+}
+
+
+.subjects h2 {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5rem;
+
+    color: var(--light-eg);
+    font-size: 40px;
+}
+
+.Guide {
+
+    background-color: #F2D0AA;
+    width: 1280px;
+    height: 500px;
+}
+
+.Guide h3 {
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    margin-left: 4rem;
+
+    padding-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+.Guide .firstvid {
+    margin: 1rem;
+    margin-top: 30px;
+
+
+
+}
+
+.Guide .secondvid {
+
+    margin-left: 33%;
+    margin-top: -330px;
+}
+
+.Guide .thirdvid {
+    margin-left: 66%;
+    margin-top: -318px;
+
+}
+
+.footer {
+    padding: 0%;
+    padding-left: 0%;
+}
+
+/* to make them inline  */
+.footer .box-C {
+    display: flex;
+
+
+    background-color: #444444;
+    width: 1280px;
+    height: 200px;
+
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* to make distance between them */
+.footer .box-C .box {
+    flex: 2 20rem;
+    padding: 1.5rem;
+    border-width: 0cm;
+
+
+}
+
+
+.footer .box-C .box h3 {
+    font-size: 1.8rem;
+    color: #F2D0AA;
+    padding: .7rem 0;
+}
+
+.footer .box-C .box h3:hover {
+    color: #ffffff;
+}
+
+.footer .box-C .box p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    padding: .7rem 0;
+}
+
+.footer .box-C .box p:hover {
+    color: #000000;
+}
+
+
+.footer .box-C .box a {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light-eg);
+    padding: .7rem 0;
+}
+
+.footer .box-C .box a:hover {
+    color: black;
+}
+
+.footer .Created {
+    font-size: 2rem;
+    margin-top: 0.1rem;
+    padding: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+    border-top: 0.2rem solid black;
+    background-color: #444444;
+    color: #F2D0AA;
+    width: 1280px;
+    height: 60px;
+
+}
+
+/* -------------------------  */
+/* Graph Theory page  */
+.Playlistsandvideos {
+    background-color: #99C1B9;
+    width: 1300px;
+    height: 1000px;
+}
+
+.Playlistsandvideos h3 {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5rem;
+    color: var(--light-eg);
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.line1 {
+    height: 5px;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    background-color: #eee;
+
+
+}
+
+.Playlistsandvideos .videos {
+    margin-left: 7rem;
+    padding-top: 10px;
+    margin-right: 2rem;
+    margin-top: -80px;
+    font-size: 20px;
+    color: var(--light-eg);
+}
+
+.Playlistsandvideos .vid1 {
+    margin: 1rem;
+    margin-top: 10px;
+
+}
+
+.Playlistsandvideos .vid2 {
+    margin-left: 33%;
+    margin-top: -315px;
+
+}
+
+.Playlistsandvideos .vid3 {
+    margin-left: 66%;
+    margin-top: -300px;
+}
+
+/* -------------------  */
+
+.line2 {
+    height: 5px;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    background-color: #eee;
+
+
+}
+
+.Playlistsandvideos .h2 {
+    margin-top: -70px;
+    font-size: 40px;
+    color: var(--light-eg);
+    margin-left: 5rem;
+
+}
+
+.b1 {
+    margin-left: 1rem;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+.b2 {
+    margin-left: 1.9rem;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+
+.b3 {
+    margin-left: 3.rem;
+    border-radius: 30px;
+    padding-top: 20px;
+
+}
+
+.b5 {
+    margin-left: 1rem;
+    border-radius: 40px;
+    padding-top: 20px;
+
+}
+
+/* ---------------------------  */
+/* Db page  */
+.Playlistsandvideosd {
+    background-color: #99C1B9;
+    width: 1300px;
+    height: 1000px;
+}
+
+.Playlistsandvideosd .Db {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5rem;
+    color: var(--light-eg);
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.line1 {
+    height: 5px;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    background-color: #eee;
+
+
+}
+
+.Playlistsandvideosd .videos {
+    margin-left: 7rem;
+    padding-top: 10px;
+    margin-right: 2rem;
+    margin-top: -80px;
+    font-size: 20px;
+    color: var(--light-eg);
+}
+
+.Playlistsandvideosd .vid1 {
+    margin: 1rem;
+    margin-top: 10px;
+
+}
+
+.Playlistsandvideosd .vid2 {
+    margin-left: 33%;
+    margin-top: -315px;
+
+}
+
+.Playlistsandvideosd .vid3 {
+    margin-left: 66%;
+    margin-top: -300px;
+}
+
+/* -------------------  */
+
+.line2 {
+    height: 5px;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    background-color: #eee;
+
+
+}
+
+.Playlistsandvideosd .h2 {
+    margin-top: -70px;
+    font-size: 40px;
+    color: var(--light-eg);
+    margin-left: 5rem;
+
+}
+
+.b1 {
+    margin-left: 1rem;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+.b2 {
+    margin-left: 1.9rem;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+
+.b3 {
+    margin-left: 3.rem;
+    border-radius: 30px;
+    padding-top: 20px;
+
+}
+
+.b4 {
+    margin-left: 1rem;
+    border-radius: 30px;
+
+    padding-top: 20px;
+}
+
+/* ------------------------------------------  */
+
+.PlaylistsandvideosO {
+    background-color: #99C1B9;
+    width: 1300px;
+    height: 1000px;
+}
+
+.PlaylistsandvideosO .OOP {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5rem;
+    color: var(--light-eg);
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.line1 {
+    height: 5px;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    background-color: #eee;
+
+
+}
+
+.PlaylistsandvideosO .videos {
+    margin-left: 7rem;
+    padding-top: 10px;
+    margin-right: 2rem;
+    margin-top: -80px;
+    font-size: 20px;
+    color: var(--light-eg);
+}
+
+.PlaylistsandvideosO .vid1 {
+    margin: 1rem;
+    margin-top: 10px;
+
+}
+
+.PlaylistsandvideosO .vid2 {
+    margin-left: 33%;
+    margin-top: -315px;
+
+}
+
+.PlaylistsandvideosO .vid3 {
+    margin-left: 66%;
+    margin-top: -300px;
+}
+
+/* -------------------  */
+
+.line2 {
+    height: 5px;
+    width: 90%;
+    margin-left: 2rem;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    background-color: #eee;
+
+
+}
+
+.PlaylistsandvideosO .h2 {
+    margin-top: -70px;
+    font-size: 40px;
+    color: var(--light-eg);
+    margin-left: 5rem;
+
+}
+
+.b1 {
+    margin-left: 1rem;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+.b2 {
+    margin-left: 1.9rem;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+
+
+.b3 {
+    margin-left: 3.rem;
+    border-radius: 30px;
+    padding-top: 20px;
+
+}
+
+.b4 {
+    margin-left: 1rem;
+    border-radius: 30px;
+
+    padding-top: 20px;
+}
+
+/* /* -------------- */
+.aboutus {
+    background-color: #F0E3D3;
+    height: 700px;
+
+}
+
+.aboutus .content img {
+    width: 50%;
+    float: left;
+    padding-top: 2%;
+
+
+}
+
+.aboutus .content h1 {
+    color: black;
+    font-size: 6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10%;
+
+}
+
+.aboutus .content .P {
+    font-size: 18px;
+    font-family: 'Open sans', sans-serif;
+
+}
+
+.Joinus {
+    height: 400px;
+    background-color: #EEC18D;
+}
+
+.Joinus p {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 15%;
+    font-style: 'Nunito', sans-serif;
+}
+
+.aboutus .A {
+    height: 700px;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 3rem;
+}
+
+.aboutus .B {
+    height: 700px;
+    width: 700px;
+    margin-top: -1200px;
+    margin-left: 40rem;
+
+
+}
+
+.aboutus .C {
+    height: 700px;
+    width: 700px;
+    margin-top: -1200px;
+    margin-left: 78rem;
+}
