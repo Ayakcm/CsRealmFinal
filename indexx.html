@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400,500,600,700;1,400,500,600,700&display=swap');
+
+        body {
+            font-size: 16px;
+        }
+    </style>
+    <link rel="stylesheet" href="stylee.css">
+    <title>Sign in</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h4>CsRealm</h4>
+                <h1>Register a new account</h1>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Family Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+                <div class="social-icons">
+                    <span>or sign up with</span>
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-apple"></i></a>
+
+                </div>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h5>CsRealm</h5>
+                <h1>Sign in to your account</h1>
+
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign In</button>
+                <div class="social-icons">
+                    <span>or sign in with :</span>
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-apple"></i></a>
+
+                </div>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hello, Learner !</h1>
+                    <p>Please provide the
+                        informations to register your account !</p>
+                    <p>already have an account ? Sign in</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome Back !</h1>
+                    <p>Please sign in into your
+                        account with the given
+                        details to continue</p>
+                    <p>New here ? Create a new account</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
